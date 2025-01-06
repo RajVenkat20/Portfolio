@@ -19,8 +19,18 @@ const Home = () => {
               <span className="text-accent">Raj Venkat Reddy Mavuram</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+              As a passionate software engineer with a strong foundation in
+              computer science and a commitment to innovation, I thrive on
+              building efficient and scalable solutions. With a Master's in
+              Computer Science from Purdue University, I bring expertise in
+              various technologies including Java, Python, React, AWS, and
+              microservices architecture.
+              <br />
+              <br />
+              My professional experience includes working as a Software Engineer
+              II at Oracle, where I optimized REST APIs, designed back-end
+              services, and enhanced UI workflows for Oracle's leading
+              hospitality product, OPERA Cloud.
             </p>
             {/* Button and Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -42,7 +52,7 @@ const Home = () => {
           </div>
           {/* Photo */}
           <div className="order-1 xl:order-none mb-8 xl-mb-0">
-            <Photo/>
+            <Photo />
           </div>
         </div>
       </div>
