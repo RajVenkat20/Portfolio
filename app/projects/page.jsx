@@ -3,36 +3,54 @@
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 
-const services = [
+const projects = [
   {
     num: "01",
-    title: "Web Development",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    title: "LLM Optimization Techniques",
+    description: "https://github.com/RajVenkat20/LLM-Optimizations-QLoRA-AWQ",
+    href: "This project takes the Flan-T5 LLM and applies QLoRA and AWQ quantization techniques.",
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    title: "Stock Price Prediction",
+    description: "Performed sentiment analysis on Twitter data to predict the prices of stocks over a span of 8 months.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    title: "Portfolio",
+    description: "Designed, built, and deployed a portfolio website using Next.js, Tailwind CSS and Framer Motion.",
+    href: "https://github.com/RajVenkat20/Portfolio",
   },
   {
     num: "04",
-    title: "SEO",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    title: "Voice ChatGPT",
+    description: "Designed, built, and deployed a portfolio website using Next.js, Tailwind CSS and Framer Motion.",
+    href: "https://github.com/Ashwanth369/Voice-ChatGPT",
+  },
+  {
+    num: "05",
+    title: "Personal Blog",
+    description: "Built a React-based full-stack application with Firebase for secure authentication, MongoDB for articles and comments management and Axios for API integration.",
+    href: "https://github.com/RajVenkat20/blog-app",
+  },
+  {
+    num: "06",
+    title: "Fitness Dashboard",
+    description: "Created a UI dashboard using React to display real-time fitness data from Samsung Health.",
+    href: "https://github.com/RajVenkat20",
+  },
+  {
+    num: "07",
+    title: "LeetCode Solved",
+    description: "An archive of the LeetCode Problems that I solved over time.",
+    href: "https://github.com/RajVenkat20/LeetCode-Solved",
   },
 ];
 
 import { motion } from "framer-motion";
 
-const Services = () => {
+const Projects = () => {
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
       <div className="container mx-auto">
@@ -44,7 +62,7 @@ const Services = () => {
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >
-          {services.map((service, index) => {
+          {projects.map((service, index) => {
             return (
               <div
                 key={index}
@@ -74,4 +92,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Projects;
