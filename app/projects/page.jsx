@@ -7,8 +7,8 @@ const projects = [
   {
     num: "01",
     title: "LLM Optimization Techniques",
-    description: "https://github.com/RajVenkat20/LLM-Optimizations-QLoRA-AWQ",
-    href: "This project takes the Flan-T5 LLM and applies QLoRA and AWQ quantization techniques.",
+    description: "Performed QLoRA and AWQ quantization on the Flan-T5 (Base, Large, XL) LLMs and evaluated their practicality for real world scenarios.",
+    href: "https://github.com/RajVenkat20/LLM-Optimizations-QLoRA-AWQ",
   },
   {
     num: "02",
