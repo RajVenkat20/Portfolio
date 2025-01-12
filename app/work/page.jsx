@@ -60,8 +60,8 @@ const projects = [
       "Designed, built, and deployed a portfolio website using Next.js, Tailwind CSS and Framer Motion.",
     stack: [
       { name: "Next.js" },
+      { name: "Javascript" },
       { name: "Tailwind CSS" },
-      { name: "JavaScript" },
       { name: "Framer Motion" },
     ],
     image: "/assets/Raj.png", // Ideally it should be
