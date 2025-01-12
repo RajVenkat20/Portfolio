@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -5,8 +7,20 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import Resume from "@/app/resume/page";
+import Contact from "@/app/contact/page";
+import Projects from "@/app/work/page";
 
 const Home = () => {
+  const resumeDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/resume/resume.pdf";
+    link.download = "resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -38,6 +52,7 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
+                onClick={resumeDownload}
               >
                 <span>Download Resume</span>
                 <FiDownload className="text-xl" />

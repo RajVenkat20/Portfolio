@@ -59,7 +59,7 @@ const experience = {
   icon: "/assets/resume/cap.svg",
   title: "My Experience",
   description:
-    "Lorem ipsum salt khao re baigan Lorem ipsum salt khao re baigan Lorem ipsum salt khao re baigan Lorem ipsum salt khao re baigan Lorem ipsum salt khao re baigan Lorem ipsum salt khao re baigan Lorem ipsum salt khao re baigan",
+    "Driving Impact with Scalable Solutions and Cutting-Edge Technology.",
   items: [
     {
       company: "Purdue University",
@@ -88,7 +88,7 @@ const experience = {
 const education = {
   icon: "/assets/resume/badge.svg",
   title: "My Education",
-  description: "Lorem ipsum salt khao re baigan",
+  description: "Building a Strong Foundation in Computer Science and Engineering Excellence.",
   items: [
     {
       institution: "Purdue University - West Lafayette",
@@ -105,8 +105,8 @@ const education = {
 
 // Skills data
 const skills = {
-  title: "My skills",
-  description: "Lorem ipsum salt khao re baigan",
+  title: "My Skills",
+  description: "Mastering Diverse Tools and Technologies for Innovative Software Solutions.",
   skillList: [
     {
       icon: <FontAwesomeIcon icon={faAws} size="0.5x" />,
@@ -297,10 +297,10 @@ const Resume = () => {
           className="flex flex-col xl:flex-row gap-[60px]"
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About Me</TabsTrigger>
+            <TabsTrigger value="experience" className="rounded-xl">Experience</TabsTrigger>
+            <TabsTrigger value="education" className="rounded-xl">Education</TabsTrigger>
+            <TabsTrigger value="skills" className="rounded-xl">Skills</TabsTrigger>
+            {/* <TabsTrigger value="about" className="rounded-xl">About Me</TabsTrigger> */}
           </TabsList>
 
           {/* Content */}
@@ -399,7 +399,7 @@ const Resume = () => {
               </div>
             </TabsContent>
             {/* About Me */}
-            <TabsContent
+            {/* <TabsContent
               value="about"
               className="w-full text-center xl:text-left"
             >
@@ -422,7 +422,7 @@ const Resume = () => {
                   })}
                 </ul>
               </div>
-            </TabsContent>
+            </TabsContent> */}
           </div>
         </Tabs>
       </div>
