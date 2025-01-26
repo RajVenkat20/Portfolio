@@ -50,7 +50,7 @@ const projects = [
     ],
     image: "/assets/projects/Stockprice.jpg", // Ideally it should be
     live: "",
-    github: "",
+    github: "https://github.com/RajVenkat20/Stock_Price_Prediction",
   },
   {
     num: "03",
@@ -66,7 +66,7 @@ const projects = [
     ],
     image: "/assets/Raj.png", // Ideally it should be
     live: "",
-    github: "",
+    github: "https://github.com/RajVenkat20/Portfolio",
   },
   {
     num: "04",
@@ -77,11 +77,11 @@ const projects = [
       { name: "OpenAI API" },
       { name: "Python" },
       { name: "KivyMD" },
-      { name: "Android" },
+      { name: "Android Studio" },
     ],
     image: "/assets/Raj.png", // Ideally it should be
     live: "",
-    github: "",
+    github: "https://github.com/Ashwanth369/Voice-ChatGPT",
   },
   {
     num: "05",
@@ -97,23 +97,24 @@ const projects = [
     ],
     image: "/assets/Raj.png", // Ideally it should be
     live: "",
-    github: "",
+    github: "https://github.com/RajVenkat20/blog-app",
   },
   {
     num: "06",
-    category: "Fitness Dashboard",
-    title: "Project 6",
-    description: "Created a UI dashboard using React to display real-time fitness data from Samsung Health.",
+    category: "E-Commerce Site",
+    title: "Project 8",
+    description: "Built an interactive full-stack e-commerce site using Vue.js, NodeJS, ExpressJS, MongoDB, Axios, Firebase, GCP",
     stack: [
-      { name: "HTML 5" },
-      { name: "CSS 3" },
-      { name: "JavaScript" },
-      { name: "React" },
-      { name: "Apache Kafka" },
+      { name: "VueJS" },
+      { name: "NodeJS" },
+      { name: "MongoDB" },
+      { name: "Axios" },
+      { name: "Firebase" },
+      { name: "GCP" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be
+    image: "/assets/projects/LeetCode.jpg", // Ideally it should be
     live: "",
-    github: "",
+    github: "https://github.com/RajVenkat20/E-Commerce-Site",
   },
   {
     num: "07",
@@ -121,10 +122,13 @@ const projects = [
     title: "Project 7",
     description: "An archive of the LeetCode Problems that I solved over time.",
     stack: [
+      { name: "Python" },
+      { name: "JavaScript" },
+      { name: "C" },
     ],
     image: "/assets/projects/LeetCode.jpg", // Ideally it should be
     live: "",
-    github: "",
+    github: "https://github.com/RajVenkat20/LeetCode-Solved",
   },
 ];
 
