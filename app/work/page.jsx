@@ -32,7 +32,7 @@ const projects = [
       { name: "Google Colab" },
       { name: "Kaggle" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be /assets/projects
+    image: "/assets/projects/Qlora_Awq.png", // Ideally it should be /assets/projects
     live: "",
     github: "https://github.com/RajVenkat20/LLM-Optimizations-QLoRA-AWQ",
   },
@@ -48,7 +48,7 @@ const projects = [
       { name: "Numpy" },
       { name: "Kaggle" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be
+    image: "/assets/projects/Stockprice.jpg", // Ideally it should be
     live: "",
     github: "",
   },
@@ -70,14 +70,14 @@ const projects = [
   },
   {
     num: "04",
-    category: "frontend",
-    title: "project 1",
-    description: "Lorem ipsum salt khao re baigan!",
+    category: "Voice ChatGPT",
+    title: "Project 4",
+    description: "Engineered an interactive android chat application integrated with OpenAI for speech conversation using KivyMD, Python",
     stack: [
-      { name: "HTML 5" },
-      { name: "CSS 3" },
-      { name: "JavaScript" },
-      { name: "React" },
+      { name: "OpenAI API" },
+      { name: "Python" },
+      { name: "KivyMD" },
+      { name: "Android" },
     ],
     image: "/assets/Raj.png", // Ideally it should be
     live: "",
@@ -85,14 +85,15 @@ const projects = [
   },
   {
     num: "05",
-    category: "frontend",
-    title: "project 1",
-    description: "Lorem ipsum salt khao re baigan!",
+    category: "Personal Blog",
+    title: "Project 5",
+    description: "Built a React-based full-stack application with Firebase for secure authentication, MongoDB for articles and comments management and Axios for API integration.",
     stack: [
-      { name: "HTML 5" },
-      { name: "CSS 3" },
-      { name: "JavaScript" },
       { name: "React" },
+      { name: "MongoDB" },
+      { name: "Axios" },
+      { name: "GCP" },
+      { name: "Google Firebase" },
     ],
     image: "/assets/Raj.png", // Ideally it should be
     live: "",
@@ -100,14 +101,15 @@ const projects = [
   },
   {
     num: "06",
-    category: "frontend",
-    title: "project 1",
-    description: "Lorem ipsum salt khao re baigan!",
+    category: "Fitness Dashboard",
+    title: "Project 6",
+    description: "Created a UI dashboard using React to display real-time fitness data from Samsung Health.",
     stack: [
       { name: "HTML 5" },
       { name: "CSS 3" },
       { name: "JavaScript" },
       { name: "React" },
+      { name: "Apache Kafka" },
     ],
     image: "/assets/Raj.png", // Ideally it should be
     live: "",
@@ -115,16 +117,12 @@ const projects = [
   },
   {
     num: "07",
-    category: "frontend",
-    title: "project 1",
-    description: "Lorem ipsum salt khao re baigan!",
+    category: "LeetCode Solved",
+    title: "Project 7",
+    description: "An archive of the LeetCode Problems that I solved over time.",
     stack: [
-      { name: "HTML 5" },
-      { name: "CSS 3" },
-      { name: "JavaScript" },
-      { name: "React" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be
+    image: "/assets/projects/LeetCode.jpg", // Ideally it should be
     live: "",
     github: "",
   },

@@ -28,17 +28,24 @@ const Home = () => {
           {/* Text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Engineer</span>
-            <h1 className="h1 mb-6">
+            <h1 className="h1 mb-6 ">
               Hello I'm <br />{" "}
               <span className="text-accent">Raj Venkat Reddy Mavuram</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              As a passionate software engineer with a strong foundation in
+            <p className="max-w-[500px] mb-9 text-white/80 text-justify">
+              {/* As a passionate software engineer with a strong foundation in
               computer science and a commitment to innovation, I thrive on
               building efficient and scalable solutions. With a Master's in
               Computer Science from Purdue University, I bring expertise in
               various technologies including Java, Python, React, AWS, and
-              microservices architecture.
+              microservices architecture. */}
+              Software engineer with a strong academic foundation and around 4
+              years of professional experience in full-stack development, API
+              design and implementation, and scalable microservices
+              architecture. Proficiency in programming languages like Python,
+              Java, JavaScript, Typescript, and SQL, and modern frameworks like
+              React, Angular, VueJS, and NextJS, complemented by expertise in cloud platforms
+              such as AWS, and GCP.
               <br />
               <br />
               My professional experience includes working as a Software Engineer
