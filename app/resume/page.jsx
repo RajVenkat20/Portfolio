@@ -20,39 +20,16 @@ import { DiNpm, DiPostgresql } from "react-icons/di";
 import { VscGithubInverted, VscVscode } from "react-icons/vsc";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAws } from "@fortawesome/free-brands-svg-icons";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { motion } from "framer-motion";
 
-// About data
-const about = {
-  title: "About me",
-  description:
-    "Hello! I'm Raj Venkat Reddy Mavuram, a passionate software engineer with a strong academic foundation and hands-on experience in developing innovative and scalable solutions. With a Master's in Computer Science from Purdue University and a stellar undergraduate record from Vasavi College of Engineering, I bring expertise in full-stack development, cloud computing, and database optimization. ",
-  info: [
-    {
-      fieldName: "Name",
-      fieldValue: "Raj Venkat Reddy Mavuram",
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+1) 765 426 9059",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "3+ Years",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Indian",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "mrajvenkatreddy@gmail.com",
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "English, Telugu, Hindi, Kannada",
-    },
-  ],
-};
 
 // Experience data
 const experience = {
@@ -88,7 +65,8 @@ const experience = {
 const education = {
   icon: "/assets/resume/badge.svg",
   title: "My Education",
-  description: "Building a Strong Foundation in Computer Science and Engineering Excellence.",
+  description:
+    "Building a Strong Foundation in Computer Science and Engineering Excellence.",
   items: [
     {
       institution: "Purdue University - West Lafayette",
@@ -106,7 +84,8 @@ const education = {
 // Skills data
 const skills = {
   title: "My Skills",
-  description: "Mastering Diverse Tools and Technologies for Innovative Software Solutions.",
+  description:
+    "Mastering Diverse Tools and Technologies for Innovative Software Solutions.",
   skillList: [
     {
       icon: <FontAwesomeIcon icon={faAws} size="0.5x" />,
@@ -271,16 +250,6 @@ const skills = {
   ],
 };
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { motion } from "framer-motion";
-
 const Resume = () => {
   return (
     <motion.div
@@ -297,9 +266,15 @@ const Resume = () => {
           className="flex flex-col xl:flex-row gap-[60px]"
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience" className="rounded-xl">Experience</TabsTrigger>
-            <TabsTrigger value="education" className="rounded-xl">Education</TabsTrigger>
-            <TabsTrigger value="skills" className="rounded-xl">Skills</TabsTrigger>
+            <TabsTrigger value="experience" className="rounded-xl">
+              Experience
+            </TabsTrigger>
+            <TabsTrigger value="education" className="rounded-xl">
+              Education
+            </TabsTrigger>
+            <TabsTrigger value="skills" className="rounded-xl">
+              Skills
+            </TabsTrigger>
             {/* <TabsTrigger value="about" className="rounded-xl">About Me</TabsTrigger> */}
           </TabsList>
 
