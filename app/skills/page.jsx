@@ -24,7 +24,8 @@ import {
   SiExpress,
   SiDjango,
   SiFlask,
-  SiAmazondynamodb
+  SiCplusplus,
+  SiAmazondynamodb,
 } from "react-icons/si";
 import { DiNpm, DiPostgresql } from "react-icons/di";
 import { VscGithubInverted, VscVscode } from "react-icons/vsc";
@@ -63,6 +64,10 @@ const programmingSkills = {
     {
       icon: <SiJavascript />,
       name: "JavaScript",
+    },
+    {
+      icon: <SiCplusplus />,
+      name: "C++",
     },
     {
       icon: <SiTypescript />,
