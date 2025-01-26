@@ -9,7 +9,7 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import Resume from "@/app/resume/page";
 import Contact from "@/app/contact/page";
-import Projects from "@/app/work/page";
+import Projects from "@/app/projects/page";
 
 const Home = () => {
   const resumeDownload = () => {
