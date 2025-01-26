@@ -57,9 +57,9 @@ const projects = [
     category: "Portfolio",
     title: "Project 3",
     description:
-      "Designed, built, and deployed a portfolio website using Next.js, Tailwind CSS and Framer Motion.",
+      "Designed, built, and deployed a portfolio website using NextJS, Tailwind CSS and Framer Motion.",
     stack: [
-      { name: "Next.js" },
+      { name: "NextJS" },
       { name: "Javascript" },
       { name: "Tailwind CSS" },
       { name: "Framer Motion" },
@@ -103,7 +103,7 @@ const projects = [
     num: "06",
     category: "E-Commerce Site",
     title: "Project 8",
-    description: "Built an interactive full-stack e-commerce site using Vue.js, NodeJS, ExpressJS, MongoDB, Axios, Firebase, GCP",
+    description: "Built an interactive full-stack e-commerce site using VueJS, NodeJS, ExpressJS, MongoDB, Axios, Firebase, GCP",
     stack: [
       { name: "VueJS" },
       { name: "NodeJS" },
