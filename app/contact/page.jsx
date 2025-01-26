@@ -52,48 +52,10 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent ">Let's work together!</h3>
               {/* Input */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input
-                  type="firstname"
-                  placeholder="First Name"
-                  className="rounded-xl"
-                />
-                <Input
-                  type="lastname"
-                  placeholder="Last Name"
-                  className="rounded-xl"
-                />
-                <Input
-                  type="email"
-                  placeholder="Email Address"
-                  className="rounded-xl"
-                />
-                <Input
-                  type="phone"
-                  placeholder="Phone Number"
-                  className="rounded-xl"
-                />
-              </div>
-              {/* Select */}
-              <Select>
-                <SelectTrigger className="w-full rounded-xl">
-                  <SelectValue placeholder="Purpose for reaching out" />
-                </SelectTrigger>
-                <SelectContent className="rounded-xl">
-                  <SelectGroup>
-                    <SelectLabel>Select a value</SelectLabel>
-                    <SelectItem value="est">Full-Stack Development</SelectItem>
-                    <SelectItem value="cst">Software Engineering</SelectItem>
-                    <SelectItem value="mst">Front-End Development</SelectItem>
-                    <SelectItem value="bst">Back-End Development</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
-              {/* Textarea */}
-              <Textarea
-                className="h-[200px] rounded-xl"
-                placeholder="Type your message here."
-              ></Textarea>
+              <h3> If you're interested in collaborating or hiring me, I'd love to hear from you. Shoot me an email  with your details and the purpose of reaching out. I'll get back to you as soon as possible.
+              <br/>
+              <br/>  
+              Looking forward to connecting!</h3>
               {/* Button */}
               <Button size="md" href="#">Send Message</Button>
             </form>
