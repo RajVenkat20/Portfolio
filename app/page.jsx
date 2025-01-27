@@ -33,12 +33,6 @@ const Home = () => {
               <span className="text-accent">Raj Venkat Reddy Mavuram</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 text-justify">
-              {/* As a passionate software engineer with a strong foundation in
-              computer science and a commitment to innovation, I thrive on
-              building efficient and scalable solutions. With a Master's in
-              Computer Science from Purdue University, I bring expertise in
-              various technologies including Java, Python, React, AWS, and
-              microservices architecture. */}
               Software engineer with a strong academic foundation and around 4
               years of professional experience in full-stack development, API
               design and implementation, and scalable microservices
