@@ -52,7 +52,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent ">Let's work together!</h3>
               {/* Input */}
-              <p className="mb-9 text-white/80 text-justify"> If you're interested in collaborating or hiring me, I'd love to hear from you. Shoot me an email  with your details and the purpose of reaching out. I'll get back to you as soon as possible.
+              <p className="mb-9 text-white/80 text-justify"> If you're interested in collaborating or hiring me, I'd love to hear from you. Shoot me an email  with your details and the purpose of reaching out. I'll get back to you as soon as possible. Alternatively, you can reach out to me on any of my social platforms.
               <br/>
               <br/>  
               Looking forward to connecting!😊</p>
