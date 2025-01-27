@@ -17,6 +17,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Raj Venkat Reddy Mavuram",
   description: "Welcome to my portfolio!",
+  icons: {
+    icon: "/assets/Raj.png"
+  }
 };
 
 export default function RootLayout({ children }) {
