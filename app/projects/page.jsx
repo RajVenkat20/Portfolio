@@ -32,7 +32,7 @@ const projects = [
       { name: "Google Colab" },
       { name: "Kaggle" },
     ],
-    image: "/assets/projects/Qlora_Awq.png", // Ideally it should be /assets/projects
+    image: "/assets/projects/Quantization.png",
     live: "",
     github: "https://github.com/RajVenkat20/LLM-Optimizations-QLoRA-AWQ",
   },
@@ -48,7 +48,7 @@ const projects = [
       { name: "Numpy" },
       { name: "Kaggle" },
     ],
-    image: "/assets/projects/Stockprice.jpg", // Ideally it should be
+    image: "/assets/projects/Stockprice.jpg",
     live: "",
     github: "https://github.com/RajVenkat20/Stock_Price_Prediction",
   },
@@ -64,7 +64,7 @@ const projects = [
       { name: "Tailwind CSS" },
       { name: "Framer Motion" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be
+    image: "/assets/projects/Portfolio.png",
     live: "",
     github: "https://github.com/RajVenkat20/Portfolio",
   },
@@ -72,14 +72,15 @@ const projects = [
     num: "04",
     category: "Voice ChatGPT",
     title: "Project 4",
-    description: "Engineered an interactive android chat application integrated with OpenAI for speech conversation using KivyMD, Python",
+    description:
+      "Engineered an interactive android chat application integrated with OpenAI for speech conversation using KivyMD, Python",
     stack: [
       { name: "OpenAI API" },
       { name: "Python" },
       { name: "KivyMD" },
       { name: "Android Studio" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be
+    image: "/assets/projects/VoiceChatGPT.png",
     live: "",
     github: "https://github.com/Ashwanth369/Voice-ChatGPT",
   },
@@ -87,7 +88,8 @@ const projects = [
     num: "05",
     category: "Personal Blog",
     title: "Project 5",
-    description: "Built a React-based full-stack application with Firebase for secure authentication, MongoDB for articles and comments management and Axios for API integration.",
+    description:
+      "Built a React-based full-stack application with Firebase for secure authentication, MongoDB for articles and comments management and Axios for API integration.",
     stack: [
       { name: "React" },
       { name: "MongoDB" },
@@ -95,7 +97,7 @@ const projects = [
       { name: "GCP" },
       { name: "Google Firebase" },
     ],
-    image: "/assets/Raj.png", // Ideally it should be
+    image: "/assets/projects/Blog.jpg",
     live: "",
     github: "https://github.com/RajVenkat20/blog-app",
   },
@@ -103,7 +105,8 @@ const projects = [
     num: "06",
     category: "E-Commerce Site",
     title: "Project 8",
-    description: "Built an interactive full-stack e-commerce site using VueJS, NodeJS, ExpressJS, MongoDB, Axios, Firebase, GCP",
+    description:
+      "Built an interactive full-stack e-commerce site using VueJS, NodeJS, ExpressJS, MongoDB, Axios, Firebase, GCP",
     stack: [
       { name: "VueJS" },
       { name: "NodeJS" },
@@ -112,7 +115,7 @@ const projects = [
       { name: "Firebase" },
       { name: "GCP" },
     ],
-    image: "/assets/projects/LeetCode.jpg", // Ideally it should be
+    image: "/assets/projects/Ecommerce.jpg",
     live: "",
     github: "https://github.com/RajVenkat20/E-Commerce-Site",
   },
@@ -121,12 +124,8 @@ const projects = [
     category: "LeetCode Solved",
     title: "Project 7",
     description: "An archive of the LeetCode Problems that I solved over time.",
-    stack: [
-      { name: "Python" },
-      { name: "JavaScript" },
-      { name: "C" },
-    ],
-    image: "/assets/projects/LeetCode.jpg", // Ideally it should be
+    stack: [{ name: "Python" }, { name: "JavaScript" }, { name: "C" }, { name: "SQL" }],
+    image: "/assets/projects/LeetCode.jpg",
     live: "",
     github: "https://github.com/RajVenkat20/LeetCode-Solved",
   },
@@ -182,20 +181,6 @@ const Work = () => {
               <div className="border border-white/20"></div>
               {/* Buttons */}
               <div className="flex items-center gap-4">
-                {/* Live Project Button */}
-                {/* <Link href={project.live}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Live Project</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link> */}
-                {/* Github Project Button */}
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
