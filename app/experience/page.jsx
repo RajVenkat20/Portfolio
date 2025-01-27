@@ -70,12 +70,12 @@ const education = {
   items: [
     {
       institution: "Purdue University - West Lafayette",
-      degree: "Master of Science in Computer Science",
+      degree: "Master of Science in CS",
       duration: "Jan 2023 - Dec 2024",
     },
     {
       institution: "Vasavi College of Engineering",
-      degree: "Bachelor of Engineering in Computer Science",
+      degree: "Bachelor of Engineering in CS",
       duration: "Jul 2017 - Aug 2021",
     },
   ],
@@ -155,12 +155,12 @@ const Resume = () => {
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                          <h3 className="text-xl max-w-[300px] min-h-[60px] text-center lg:text-left">
                             {item.degree}
                           </h3>
                           <div className="flex items-center gap-3">
                             {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <span className="w-[8px] h-[8px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.institution}</p>
                           </div>
                         </li>
