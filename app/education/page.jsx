@@ -77,9 +77,9 @@ const Education = () => {
                 <h3 className="text-4xl font-bold text-center">
                   {education.title}
                 </h3>
-                <p className="text-justify text-white/60 mx-auto xl:mx-0">
+                {/* <p className="text-justify text-white/60 mx-auto xl:mx-0">
                   {education.description}
-                </p>
+                </p> */}
                 <ScrollArea className="h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {education.items.map((item, index) => {
