@@ -61,7 +61,7 @@ const education = {
   icon: "/assets/resume/badge.svg",
   title: "My Education",
   description:
-    "I hold a Bachelor's and Master's degree in Computer Science, with coursework in algorithm design and analysis, operating systems, computer networks, data mining, distributed systems, database systems, information security, cryptography, machine learning, artificial intelligence, and reasoning with large language models (LLMs).",
+    "Hold a Master of Science in Computer Science from Purdue University and a Bachelor’s degree in the same field. Academic background includes coursework in algorithm design and analysis, operating systems, distributed systems, computer networks, database systems, data mining, information security, cryptography, artificial intelligence, machine learning, and reasoning with large language models (LLMs).",
   items: [
     {
       institution: "Purdue University - West Lafayette",
