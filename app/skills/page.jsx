@@ -81,10 +81,10 @@ const programmingSkills = {
       icon: <FontAwesomeIcon icon={faGolang} size="0.5x" />,
       name: "Go",
     },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwind CSS",
-    },
+    // {
+    //   icon: <SiTailwindcss />,
+    //   name: "Tailwind CSS",
+    // },
     {
       icon: <FaLinux />,
       name: "Bash",
