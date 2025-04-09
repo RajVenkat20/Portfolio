@@ -86,13 +86,13 @@ const Education = () => {
                           <div className="flex items-center gap-3 min-h-[45px]">
                             {/* dot */}
                             <span className="w-[8px] h-[8px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.institution}</p>
+                            <p className="text-accent">{item.institution}</p>
                           </div>
                           
                           <h3 className="text-xl min-h-[40px] text-center lg:text-left">
                             {item.degree}
                           </h3>
-                          <span className="text-accent min-h-[40px]">{item.duration}</span>                          
+                          <span className="text-white/60 min-h-[40px]">{item.duration}</span>                          
                         </li>
                       );
                     })}
