@@ -76,7 +76,7 @@ const education = {
   ],
 };
 
-const Resume = () => {
+const Experience = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -172,4 +172,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Experience;
