@@ -33,13 +33,7 @@ const Home = () => {
               <span className="text-accent">Raj Venkat Reddy Mavuram</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 text-justify">
-              Software engineer with a strong academic foundation and 3
-              years of professional experience in full-stack development, API
-              design and implementation, and scalable microservices
-              architecture. Proficiency in programming languages like Python,
-              Java, JavaScript, Typescript, and SQL, and modern frameworks like
-              React, Angular, VueJS, and NextJS, complemented by expertise in cloud platforms
-              such as AWS, and GCP.
+            Software Engineer with a strong foundation in Computer Science and nearly three years of hands-on experience in building scalable, high-performance full-stack applications. Proficient in designing RESTful APIs, implementing microservices architectures, and developing intuitive frontend interfaces using modern frameworks like React, Next.js, and Spring Boot. Adept in programming languages including Python, Java, JavaScript, TypeScript and SQL, with practical experience across cloud platforms such as AWS and GCP. Proven ability to deliver robust solutions in enterprise environments, with a focus on performance optimization, clean architecture, and cross-functional collaboration.
             </p>
             {/* Button and Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
