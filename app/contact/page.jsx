@@ -38,7 +38,8 @@ const info = [
 
 const Contact = () => {
   return (
-    <motion.section
+    <motion.div
+      initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
@@ -78,7 +79,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </motion.div>
   );
 };
 
