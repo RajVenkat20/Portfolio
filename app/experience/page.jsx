@@ -51,7 +51,7 @@ const experience = {
       summary: "Enhanced guest profile and loyalty workflows within OPERA Cloud using Oracle ADF’s MVC architecture and optimized backend logic through SQL and PL/SQL improvements. Operated in a CI/CD Agile environment to deliver new features and resolve bugs efficiently. Contributed to automation testing using Selenium and strengthened code quality with tools like Maven, Git, and Chrome DevTools.",
     },
     {
-      company: "Purdue University",
+      company: "Purdue University - West Lafayette",
       position: "Software Developer",
       duration: "May 2023 - Dec 2024",
       summary: "Contributed to the development of a research-focused web application using React, FastAPI, and PostgreSQL, improving system performance through lazy loading and indexed queries. Designed scalable API endpoints, implemented efficient data retrieval strategies, and deployed workflow tools on AWS using EC2, RDS, and CloudWatch to enhance developer collaboration and operational reliability.",
