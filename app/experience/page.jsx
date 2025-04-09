@@ -56,26 +56,6 @@ const experience = {
   ],
 };
 
-// Education data
-const education = {
-  icon: "/assets/resume/badge.svg",
-  title: "My Education",
-  description:
-    "Hold a Master of Science in Computer Science from Purdue University and a Bachelor’s degree in the same field. Academic background includes coursework in algorithm design and analysis, operating systems, distributed systems, computer networks, database systems, data mining, information security, cryptography, artificial intelligence, machine learning, and reasoning with large language models (LLMs).",
-  items: [
-    {
-      institution: "Purdue University - West Lafayette",
-      degree: "Master of Science in CS",
-      duration: "Jan 2023 - Dec 2024",
-    },
-    {
-      institution: "Vasavi College of Engineering",
-      degree: "Bachelor of Engineering in CS",
-      duration: "Jul 2017 - Aug 2021",
-    },
-  ],
-};
-
 const Experience = () => {
   return (
     <motion.div
