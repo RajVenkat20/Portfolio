@@ -36,27 +36,22 @@ const experience = {
   icon: "/assets/resume/cap.svg",
   title: "My Experience",
   description:
-    "Software engineer with ~3 years of professional experience in full-stack development, scalable microservices architecture, and API design. My expertise spans modern frameworks like React and Next.js, cloud platforms like AWS and GCP, and languages including Python, Java, JavaScript, and SQL. I have developed and optimized high-performing web applications, streamlined complex database operations, and designed reliable, scalable solutions for enterprise systems, consistently improving efficiency and user experience.",
+    "Software Engineer with ~3 years of experience delivering full-stack solutions and architecting scalable microservices for enterprise applications. Proven track record in developing high-performance web applications using React, Next.js, and Spring Boot, and designing robust APIs with FastAPI and Java EE. Skilled in optimizing database performance with PostgreSQL, MySQL, and Oracle, and leveraging cloud platforms like AWS and GCP to ensure system reliability, scalability, and availability. Adept at cross-functional collaboration, performance tuning, CI/CD automation, and delivering user-centric solutions that drive efficiency and elevate user experience.",
   items: [
     {
       company: "Purdue University",
-      position: "Web Developer",
+      position: "Software Developer",
       duration: "May 2023 - Dec 2024",
     },
     {
       company: "Oracle",
       position: "Software Engineer II",
-      duration: "Sep 2022 - Dec 2022",
+      duration: "Jan 2022 - Dec 2022",
     },
     {
       company: "Oracle",
       position: "Software Engineer I",
-      duration: "Jul 2021 - Aug 2022",
-    },
-    {
-      company: "Oracle",
-      position: "Software Engineer Intern",
-      duration: "Jan 2021 - Jun 2021",
+      duration: "Jan 2021 - Dec 2021",
     },
   ],
 };
@@ -111,7 +106,7 @@ const Resume = () => {
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="text-justify max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="text-justify text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
