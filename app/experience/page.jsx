@@ -91,21 +91,21 @@ const Experience = () => {
           defaultValue="experience"
           className="flex flex-col xl:flex-row gap-[60px]"
         >
-          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+          {/* <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="experience" className="rounded-xl">
               Experience
             </TabsTrigger>
             <TabsTrigger value="education" className="rounded-xl">
               Education
             </TabsTrigger>
-          </TabsList>
+          </TabsList> */}
 
           {/* Content */}
           <div className="min-h-[70vh] w-full">
             {/* Experience */}
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold">{experience.title}</h3>
+                <h3 className="text-4xl font-bold text-center">{experience.title}</h3>
                 <p className="text-justify text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
