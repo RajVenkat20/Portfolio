@@ -102,7 +102,6 @@ const Experience = () => {
                             {item.position}
                           </h3>
                           <span className="min-h-[40px]">{item.duration}</span>
-                          
                           <div>
                           <p className="text-justify text-white/60">{item.summary}</p>
                           </div>

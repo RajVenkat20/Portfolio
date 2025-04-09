@@ -41,11 +41,15 @@ const education = {
       institution: "Purdue University - West Lafayette",
       degree: "Master of Science in CS",
       duration: "Jan 2023 - Dec 2024",
+      coursework:
+        "Coursework: Data Mining, Database Systems, Information Security, Data Communication and Computer Networks, Cryptography, Compiling And Programming Systems, Machine Learning Systems, Reasoning with LLMs, Algorithm Design, Analysis, And Implementation, Social, Economic, And Legal Aspects Of Security.",
     },
     {
       institution: "Vasavi College of Engineering",
       degree: "Bachelor of Engineering in CS",
       duration: "Jul 2017 - Aug 2021",
+      coursework:
+        "Coursework: Machine Learning, Artificial Intelligence, Image Processing, DBMS, Data Structures and Algorithms, Design and Analysis of Algorithms, Computer Networks, Logic and Switching Theory, Distributed Systems and Cloud Computing, Object Oriented Programming, Operating Systems, Computer Architecture.",
     },
   ],
 };
@@ -65,13 +69,14 @@ const Education = () => {
           defaultValue="education"
           className="flex flex-col xl:flex-row gap-[60px]"
         >
-
           {/* Content */}
           <div className="min-h-[70vh] w-full">
             {/* Education */}
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold text-center">{education.title}</h3>
+                <h3 className="text-4xl font-bold text-center">
+                  {education.title}
+                </h3>
                 <p className="text-justify text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
@@ -81,25 +86,32 @@ const Education = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-[#232329] h-[350px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <div className="flex items-center gap-3 min-h-[45px]">
                             {/* dot */}
                             <span className="w-[8px] h-[8px] rounded-full bg-accent"></span>
                             <p className="text-accent">{item.institution}</p>
                           </div>
-                          
+
                           <h3 className="text-xl min-h-[40px] text-center lg:text-left">
                             {item.degree}
                           </h3>
-                          <span className="text-white/60 min-h-[40px]">{item.duration}</span>                          
+                          <span className="min-h-[40px]">
+                            {item.duration}
+                          </span>
+                          <div>
+                            <p className="text-justify text-white/60">
+                              {item.coursework}
+                            </p>
+                          </div>
                         </li>
                       );
                     })}
                   </ul>
                 </ScrollArea>
               </div>
-            </TabsContent>      
+            </TabsContent>
           </div>
         </Tabs>
       </div>
