@@ -83,16 +83,16 @@ const Education = () => {
                           key={index}
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
-                          <span className="text-accent min-h-[40px]">{item.duration}</span>
-                          <h3 className="text-xl min-h-[40px] text-center lg:text-left">
-                            {item.degree}
-                          </h3>
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-3 min-h-[45px]">
                             {/* dot */}
                             <span className="w-[8px] h-[8px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.institution}</p>
                           </div>
                           
+                          <h3 className="text-xl min-h-[40px] text-center lg:text-left">
+                            {item.degree}
+                          </h3>
+                          <span className="text-accent min-h-[40px]">{item.duration}</span>                          
                         </li>
                       );
                     })}
