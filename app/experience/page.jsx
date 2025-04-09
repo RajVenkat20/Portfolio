@@ -36,7 +36,7 @@ const experience = {
   icon: "/assets/resume/cap.svg",
   title: "My Experience",
   description:
-    "Software engineer with ~4 years of professional experience in full-stack development, scalable microservices architecture, and API design. My expertise spans modern frameworks like React and Next.js, cloud platforms like AWS and GCP, and languages including Python, Java, JavaScript, and SQL. I have developed and optimized high-performing web applications, streamlined complex database operations, and designed reliable, scalable solutions for enterprise systems, consistently improving efficiency and user experience.",
+    "Software engineer with ~3 years of professional experience in full-stack development, scalable microservices architecture, and API design. My expertise spans modern frameworks like React and Next.js, cloud platforms like AWS and GCP, and languages including Python, Java, JavaScript, and SQL. I have developed and optimized high-performing web applications, streamlined complex database operations, and designed reliable, scalable solutions for enterprise systems, consistently improving efficiency and user experience.",
   items: [
     {
       company: "Purdue University",
@@ -44,17 +44,17 @@ const experience = {
       duration: "May 2023 - Dec 2024",
     },
     {
-      company: "Oracle India Pvt. Ltd.",
+      company: "Oracle",
       position: "Software Engineer II",
       duration: "Sep 2022 - Dec 2022",
     },
     {
-      company: "Oracle India Pvt. Ltd.",
+      company: "Oracle",
       position: "Software Engineer I",
       duration: "Jul 2021 - Aug 2022",
     },
     {
-      company: "Oracle India Pvt. Ltd.",
+      company: "Oracle",
       position: "Software Engineer Intern",
       duration: "Jan 2021 - Jun 2021",
     },
