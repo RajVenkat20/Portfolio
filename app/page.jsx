@@ -29,23 +29,17 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1 mb-6 ">
-              Hello I'm <br />{" "}
+              Hello, I'm <br />{" "}
               <span className="text-accent">Raj Venkat Reddy Mavuram</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 text-justify">
-              Software engineer with a strong academic foundation and around 4
+              Software engineer with a strong academic foundation and 3
               years of professional experience in full-stack development, API
               design and implementation, and scalable microservices
               architecture. Proficiency in programming languages like Python,
               Java, JavaScript, Typescript, and SQL, and modern frameworks like
               React, Angular, VueJS, and NextJS, complemented by expertise in cloud platforms
               such as AWS, and GCP.
-              <br />
-              <br />
-              My professional experience includes working as a Software Engineer
-              II at Oracle, where I optimized REST APIs, designed back-end
-              services, and enhanced UI workflows for Oracle's leading
-              hospitality product, OPERA Cloud.
             </p>
             {/* Button and Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
