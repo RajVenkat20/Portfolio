@@ -7,9 +7,6 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
-import Resume from "@/app/experience/page";
-import Contact from "@/app/contact/page";
-import Projects from "@/app/projects/page";
 
 const Home = () => {
   const resumeDownload = () => {
